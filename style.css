@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar{
+    border: 0px solid;
+    text-align: left;
+    padding-left: 90px;
+    background-color: black;
+}
+
+ul,
+li,
+a{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.cuerpo{
+    border: 1px solid;
+    width: 1600px;
+    height: 850px;
+    margin-left: 150px;
+
+}
+
+h3{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.tabla{
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+table,
+th,
+td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
