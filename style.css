@@ -1,13 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
-}
-
-.navbar{
-    border: 0px solid;
-    text-align: left;
-    padding-left: 90px;
-    background-color: black;
+    box-sizing: border-box;
 }
 
 ul,
@@ -25,11 +19,14 @@ a:hover{
     color: red;
 }
 
-.cuerpo{
-    border: 1px solid;
-    width: 75%;
-    height: 850px;
-    margin-left: 170px;
+table,
+tr{
+    margin-left: 135px;
+    width: 70%;
+    height: 50px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
 }
 
 h3{
@@ -37,6 +34,49 @@ h3{
     text-align: center;
 }
 
+input{
+    border: 1px solid;
+    display: inline-block;
+    width: 30%;
+}
+
+label{
+    border: 1px solid;
+    display: inline-block;
+    width: 30%;
+    margin-left: 10px;
+}
+
+form{
+    border: 1px solid;
+    display: inline-block;
+    width: 60%;
+    margin-left: 150px;
+}
+
+.navbar{
+    border: 0px solid;
+    text-align: left;
+    padding-left: 90px;
+    background-color: black;
+}
+
+.cuerpo{
+    border: 1px solid;
+    width: 75%;
+    height: 850px;
+    margin-left: 170px;
+}
+
+.formulario{
+    border: 1px solid;
+    margin-left: 90px;
+    width: 80%;
+    height: 80%;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .tabla{
     margin-left: 100px;
@@ -69,13 +109,5 @@ h3{
 }
 
 
-table,
-tr{
-    margin-left: 135px;
-    width: 70%;
-    height: 50px;
-    text-align: center;
-    border-collapse: collapse;
-    border: 1px solid black;
-}
+
 
