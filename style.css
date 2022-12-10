@@ -15,6 +15,10 @@ a{
     text-decoration: none;
 }
 
+.guardar:hover{
+    background-color: rgb(103, 255, 103);   
+}
+
 a:hover{
     color: red;
 }
@@ -38,20 +42,32 @@ input{
     border: 1px solid;
     display: inline-block;
     width: 30%;
+    margin-left: 200px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 label{
-    border: 1px solid;
     display: inline-block;
     width: 30%;
-    margin-left: 10px;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 form{
     border: 1px solid;
     display: inline-block;
-    width: 60%;
+    width: 70%;
     margin-left: 150px;
+}
+
+
+.guardar{
+    background-color: rgb(185, 247, 179);
 }
 
 .navbar{
@@ -68,8 +84,30 @@ form{
     margin-left: 170px;
 }
 
-.formulario{
+.detalles{
     border: 1px solid;
+    margin-left: 100px;
+    width: 80%;
+    height: 50%;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.columnaizquierda{
+    padding-top: 100px;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 230px;
+}
+
+.columnaderecha{
+    margin-left: 100px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.formulario{
     margin-left: 90px;
     width: 80%;
     height: 80%;
@@ -79,6 +117,7 @@ form{
 }
 
 .tabla{
+    border: 1px solid;
     margin-left: 100px;
     width: 80%;
     height: 80%;
